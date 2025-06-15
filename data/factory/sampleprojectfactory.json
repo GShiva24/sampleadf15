@@ -1,0 +1,9 @@
+{
+	"name": "sampleprojectfactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "82be158c-9eaf-4ea0-895a-d39c44d5998d",
+		"tenantId": "651134ac-9846-4d17-b19e-aeee574df189"
+	}
+}
