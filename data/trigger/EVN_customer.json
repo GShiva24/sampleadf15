@@ -1,0 +1,24 @@
+{
+	"name": "EVN_customer",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "sqlserversample_pl",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/customer/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/2bd3b182-be2c-4732-8d4d-91f97245ec54/resourceGroups/sampleproject/providers/Microsoft.Storage/storageAccounts/sqlserversample",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
