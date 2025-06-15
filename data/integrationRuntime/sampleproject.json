@@ -1,0 +1,6 @@
+{
+	"name": "sampleproject",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
